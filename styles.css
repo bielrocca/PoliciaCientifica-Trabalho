@@ -80,7 +80,8 @@ header > .container {
 #inicio,
 #suporte,
 #sobre,
-#campanhas  {
+#campanhas,
+#performance  {
     color: #b4b4b4;
 }
 
@@ -94,6 +95,18 @@ time {
 
 .post {
     margin-bottom: 24px;
+}
+
+div > .col-10 {
+    width: 75%;
+}
+
+.gun .card-body{
+    padding-bottom: 60px;
+}
+
+.prison .card-body {
+    padding-bottom: 35px;
 }
 
 @media screen and (max-width: 767px) {
