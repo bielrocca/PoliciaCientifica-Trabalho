@@ -50,6 +50,14 @@ header > .container {
     background-image: url(./img/banner_pc.jpg);
 }
 
+@media (max-width: 768px) {
+    .module.parallax {
+        background-position: center center;
+        background-attachment: scroll;
+        height: 40vh !important;
+    }
+}
+
 .module.parallax a{
     color: #fff;
     text-align: center;
@@ -211,4 +219,60 @@ footer {
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-10, .col-2, .col-3, .col-12 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* Ajuste de imagens nas seções */
+    .bem-vindo img, .gun img, .prison img {
+        width: 100%;
+    }
+
+    /* Ajuste dos cards na seção performance */
+    .card {
+        margin-bottom: 20px;
+    }
+
+    /* Centralização do formulário */
+    form {
+        text-align: center;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
 }
